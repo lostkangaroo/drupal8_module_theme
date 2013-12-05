@@ -1,0 +1,6 @@
+name: Hello
+type: module
+description: 'Not really much to say here but Hello'
+package: 'Testing Stuff'
+core: 8.x
+

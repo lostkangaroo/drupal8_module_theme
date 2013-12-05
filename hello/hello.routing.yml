@@ -1,0 +1,7 @@
+hello.awesome:
+  path: '/hello'
+  defaults:
+    _content: '\Drupal\hello\Controller\HelloController::helloPage'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'view content'

@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ *
+ * A module file what more do you want from me!!!
+ */
+
+function hello_theme() {
+  return array(
+    'hello_item' => array(
+      'variables' => array('text' => t('Hello World Default Awesome'), 'attributes' => ''),
+      'template' => 'hello',
+    ),
+  );
+}
